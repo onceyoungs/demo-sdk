@@ -1,0 +1,24 @@
+{
+    "name": "onceyoungs/demo-sdk",
+    "description": "示例 SDK 开发并发布到composer仓库，仅供参考！",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "onceyoungs",
+            "email": "onceyoungs@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onceyoungs\\Sdk\\Demo\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
