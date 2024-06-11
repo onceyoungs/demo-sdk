@@ -10,22 +10,26 @@
 6、提交代码到github仓库
 
 ### 通用sdk目录规范 按需使用
-```
-|——bin               可执行文件目录
-|——config            配置文件目录
-|——docs              文档目录
-|——examples          示例代码目录
-|——resources         静态资源目录
-|——runtime           临时文件和缓存文件目录
-|——src               功能实现目录
-|  |——helper.php     助手函数
-|tests               单元测试目录
-|vendor              依赖包目录
-|.gitignore          忽略提交文件
-|composer.json       包管理文件
-|LICENSE             开源协议
-|README.md           说明文件
-```
+>demo-sdk         sdk开发目录  
+├─bin             可执行文件目录  
+├─config          配置文件目录  
+├─docs            文档目录  
+├─examples        示例代码目录  
+├─resources       静态资源目录  
+├─runtime         运行时目录放临时文件和缓存等  
+├─src             功能实现目录  
+│  ├─Api          功能   
+│  ├─ ...         更多功能目录  
+│  │  
+│  └─helper.php   助手函数  
+│  
+├─tests           单元测试目录  
+├─vendor          扩展类库目录  
+├─.gitignore      忽略提交文件  
+├─composer.json   composer定义文件  
+├─LICENSE         开源授权说明文件  
+├─README.md       sdk说明文件  
+└─phpunit.xml     单元测试配置文件
 
 ### 发布sdk到composer仓库
 > 1、登录composer官网 https://packagist.org  
